@@ -1,0 +1,1820 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.cs]
+# Tabs, indents, alignment
+## General
+indent_style = spaces
+csharp_indent_style = spaces
+resharper_csharp_indent_style = spaces
+#-
+indent_size = 4
+csharp_indent_size = 4
+resharper_csharp_indent_size = 4
+#-
+tab_width = 4
+csharp_tab_width = 4
+resharper_csharp_tab_width = 4
+#-
+continuous_indent_multiplier = 1
+resharper_continuous_indent_multiplier = 1
+csharp_continuous_indent_multiplier = 1
+resharper_csharp_continuous_indent_multiplier = 1
+#-
+## Nested statements
+indent_nested_usings_stmt = false
+resharper_indent_nested_usings_stmt = false
+csharp_indent_nested_usings_stmt = false
+resharper_csharp_indent_nested_usings_stmt = false
+#-
+indent_nested_fixed_stmt = false
+resharper_indent_nested_fixed_stmt = false
+csharp_indent_nested_fixed_stmt = false
+resharper_csharp_indent_nested_fixed_stmt = false
+#-
+indent_nested_lock_stmt = false
+resharper_indent_nested_lock_stmt = false
+csharp_indent_nested_lock_stmt = false
+resharper_csharp_indent_nested_lock_stmt = false
+#-
+indent_nested_for_stmt = false
+resharper_indent_nested_for_stmt = false
+csharp_indent_nested_for_stmt = false
+resharper_csharp_indent_nested_for_stmt = false
+#-
+indent_nested_foreach_stmt = false
+resharper_indent_nested_foreach_stmt = false
+csharp_indent_nested_foreach_stmt = false
+resharper_csharp_indent_nested_foreach_stmt = false
+#-
+indent_nested_while_stmt = false
+resharper_indent_nested_while_stmt = false
+csharp_indent_nested_while_stmt = false
+resharper_csharp_indent_nested_while_stmt = false
+#-
+## Parenthesis
+use_continuous_indent_inside_parens = true
+resharper_use_continuous_indent_inside_parens = true
+csharp_use_continuous_indent_inside_parens = true
+resharper_csharp_use_continuous_indent_inside_parens = true
+#-
+indent_method_decl_pars = inside
+resharper_indent_method_decl_pars = inside
+csharp_indent_method_decl_pars = inside
+resharper_csharp_indent_method_decl_pars = inside
+#-
+indent_primary_constructor_decl_pars = inside
+resharper_indent_primary_constructor_decl_pars = inside
+csharp_indent_primary_constructor_decl_pars = inside
+resharper_csharp_indent_primary_constructor_decl_pars = inside
+#-
+indent_invocation_pars = inside
+resharper_indent_invocation_pars = inside
+csharp_indent_invocation_pars = inside
+resharper_csharp_indent_invocation_pars = inside
+#-
+indent_statement_pars = inside
+resharper_indent_statement_pars = inside
+csharp_indent_statement_pars = inside
+resharper_csharp_indent_statement_pars = inside
+#-
+indent_typeparam_angles = inside
+resharper_indent_typeparam_angles = inside
+csharp_indent_typeparam_angles = inside
+resharper_csharp_indent_typeparam_angles = inside
+#-
+indent_typearg_angles = inside
+resharper_indent_typearg_angles = inside
+csharp_indent_typearg_angles = inside
+resharper_csharp_indent_typearg_angles = inside
+#-
+indent_pars = inside
+resharper_indent_pars = inside
+csharp_indent_pars = inside
+resharper_csharp_indent_pars = inside
+#-
+## Preprocessor directives
+indent_preprocessor_if = no_indent
+resharper_indent_preprocessor_if = no_indent
+csharp_indent_preprocessor_if = no_indent
+resharper_csharp_indent_preprocessor_if = no_indent
+#-
+indent_preprocessor_region = usual_indent
+resharper_indent_preprocessor_region = usual_indent
+csharp_indent_preprocessor_region = usual_indent
+resharper_csharp_indent_preprocessor_region = usual_indent
+#-
+indent_preprocessor_other = no_indent
+resharper_indent_preprocessor_other = no_indent
+csharp_indent_preprocessor_other = no_indent
+resharper_csharp_indent_preprocessor_other = no_indent
+#-
+## Other indents
+indent_switch_labels = true
+resharper_indent_switch_labels = true
+csharp_indent_switch_labels = true
+resharper_csharp_indent_switch_labels = true
+#-
+indent_break_from_case = false
+resharper_indent_break_from_case = false
+csharp_indent_break_from_case = false
+resharper_csharp_indent_break_from_case = false
+#-
+outdent_statement_labels = false
+resharper_outdent_statement_labels = false
+csharp_outdent_statement_labels = false
+resharper_csharp_outdent_statement_labels = false
+#-
+indent_type_constraints = false
+resharper_indent_type_constraints = false
+csharp_indent_type_constraints = false
+resharper_csharp_indent_type_constraints = false
+#-
+place_comments_at_first_column = false
+resharper_place_comments_at_first_column = false
+csharp_place_comments_at_first_column = false
+resharper_csharp_place_comments_at_first_column = false
+#-
+use_indent_from_previous_element = true
+resharper_use_indent_from_previous_element = true
+csharp_use_indent_from_previous_element = true
+resharper_csharp_use_indent_from_previous_element = true
+#-
+indent_braces_inside_statement_conditions = true
+resharper_indent_braces_inside_statement_conditions = true
+csharp_indent_braces_inside_statement_conditions = true
+resharper_csharp_indent_braces_inside_statement_conditions = true
+#-
+## Align multiline constructs
+alignment_tab_fill_style = use_spaces
+resharper_alignment_tab_fill_style = use_spaces
+csharp_alignment_tab_fill_style = use_spaces
+resharper_csharp_alignment_tab_fill_style = use_spaces
+#-
+allow_far_alignment = false
+resharper_allow_far_alignment = false
+csharp_allow_far_alignment = false
+resharper_csharp_allow_far_alignment = false
+#-
+align_multiline_parameter = false
+resharper_align_multiline_parameter = false
+csharp_align_multiline_parameter = false
+resharper_csharp_align_multiline_parameter = false
+#-
+align_multiline_extends_list = false
+resharper_align_multiline_extends_list = false
+csharp_align_multiline_extends_list = false
+resharper_csharp_align_multiline_extends_list = false
+#-
+align_linq_query = true
+resharper_align_linq_query = true
+csharp_align_linq_query = true
+resharper_csharp_align_linq_query = true
+#-
+align_multiline_binary_expressions_chain = true
+resharper_align_multiline_binary_expressions_chain = true
+csharp_align_multiline_binary_expressions_chain = true
+resharper_csharp_align_multiline_binary_expressions_chain = true
+#-
+outdent_binary_ops = false
+resharper_outdent_binary_ops = false
+csharp_outdent_binary_ops = false
+resharper_csharp_outdent_binary_ops = false
+#-
+align_multiline_calls_chain = false
+resharper_align_multiline_calls_chain = false
+csharp_align_multiline_calls_chain = false
+resharper_csharp_align_multiline_calls_chain = false
+#-
+outdent_dots = false
+resharper_outdent_dots = false
+csharp_outdent_dots = false
+resharper_csharp_outdent_dots = false
+#-
+align_multiline_array_and_object_initializer = false
+resharper_align_multiline_array_and_object_initializer = false
+csharp_align_multiline_array_and_object_initializer = false
+resharper_csharp_align_multiline_array_and_object_initializer = false
+#-
+align_multiline_switch_expression = false
+resharper_align_multiline_switch_expression = false
+csharp_align_multiline_switch_expression = false
+resharper_csharp_align_multiline_switch_expression = false
+#-
+align_multiline_property_pattern = false
+resharper_align_multiline_property_pattern = false
+csharp_align_multiline_property_pattern = false
+resharper_csharp_align_multiline_property_pattern = false
+#-
+align_multiline_list_pattern = false
+resharper_align_multiline_list_pattern = false
+csharp_align_multiline_list_pattern = false
+resharper_csharp_align_multiline_list_pattern = false
+#-
+align_multiline_binary_patterns = false
+resharper_align_multiline_binary_patterns = false
+csharp_align_multiline_binary_patterns = false
+resharper_csharp_align_multiline_binary_patterns = false
+#-
+outdent_binary_pattern_ops = false
+resharper_outdent_binary_pattern_ops = false
+csharp_outdent_binary_pattern_ops = false
+resharper_csharp_outdent_binary_pattern_ops = false
+#-
+
+indent_anonymous_method_block = false
+resharper_indent_anonymous_method_block = false
+csharp_indent_anonymous_method_block = false
+resharper_csharp_indent_anonymous_method_block = false
+#-
+align_first_arg_by_paren = false
+resharper_align_first_arg_by_paren = false
+csharp_align_first_arg_by_paren = false
+resharper_csharp_align_first_arg_by_paren = false
+#-
+
+align_multiline_argument = false
+resharper_align_multiline_argument = false
+csharp_align_multiline_argument = false
+resharper_csharp_align_multiline_argument = false
+#-
+align_tuple_components = false
+resharper_align_tuple_components = false
+csharp_align_tuple_components = false
+resharper_csharp_align_tuple_components = false
+#-
+align_multiline_expression = false
+resharper_align_multiline_expression = false
+csharp_align_multiline_expression = false
+resharper_csharp_align_multiline_expression = false
+#-
+align_multiline_statement_conditions = true
+resharper_align_multiline_statement_conditions = true
+csharp_align_multiline_statement_conditions = true
+resharper_csharp_align_multiline_statement_conditions = true
+#-
+align_multiline_for_stmt = true
+resharper_align_multiline_for_stmt = true
+csharp_align_multiline_for_stmt = true
+resharper_csharp_align_multiline_for_stmt = true
+#-
+align_multiple_declaration = false
+resharper_align_multiple_declaration = false
+csharp_align_multiple_declaration = false
+resharper_csharp_align_multiple_declaration = false
+#-
+align_multline_type_parameter_list = false
+resharper_align_multline_type_parameter_list = false
+csharp_align_multline_type_parameter_list = false
+resharper_csharp_align_multline_type_parameter_list = false
+#-
+align_multline_type_parameter_constrains = false
+resharper_align_multline_type_parameter_constrains = false
+csharp_align_multline_type_parameter_constrains = false
+resharper_csharp_align_multline_type_parameter_constrains = false
+#-
+outdent_commas = false
+resharper_outdent_commas = false
+csharp_outdent_commas = false
+resharper_csharp_outdent_commas = false
+#-
+align_multiline_comments = true
+resharper_align_multiline_comments = true
+csharp_align_multiline_comments = true
+resharper_csharp_align_multiline_comments = true
+#-
+indent_raw_literal_string = indent
+resharper_indent_raw_literal_string = indent
+csharp_indent_raw_literal_string = indent
+resharper_csharp_indent_raw_literal_string = indent
+#-
+## Align similar code in columns
+#- this is global and can be used to be default for all other settings below in this section
+csharp_int_align = false
+resharper_csharp_int_align = false
+int_align = false
+resharper_int_align = false
+#-
+int_align_fix_in_adjacent = true
+resharper_int_align_fix_in_adjacent = true
+csharp_int_align_fix_in_adjacent = true
+resharper_csharp_int_align_fix_in_adjacent = true
+#-
+int_align_fields = false
+resharper_int_align_fields = false
+csharp_int_align_fields = false
+resharper_csharp_int_align_fields = false
+#-
+int_align_properties = false
+resharper_int_align_properties = false
+csharp_int_align_properties = false
+resharper_csharp_int_align_properties = false
+#-
+csharp_int_align_methods = false
+resharper_csharp_int_align_methods = false
+int_align_methods = false
+resharper_int_align_methods = false
+#-
+int_align_parameters = false
+resharper_int_align_parameters = false
+csharp_int_align_parameters = false
+resharper_csharp_int_align_parameters = false
+#-
+int_align_variables = false
+resharper_int_align_variables = false
+csharp_int_align_variables = false
+resharper_csharp_int_align_variables = false
+#-
+int_align_assignments = false
+resharper_int_align_assignments = false
+csharp_int_align_assignments = false
+resharper_csharp_int_align_assignments = false
+#-
+int_align_property_patterns = false
+resharper_int_align_property_patterns = false
+csharp_int_align_property_patterns = false
+resharper_csharp_int_align_property_patterns = false
+#-
+int_align_nested_ternary = false
+resharper_int_align_nested_ternary = false
+csharp_int_align_nested_ternary = false
+resharper_csharp_int_align_nested_ternary = false
+#-
+int_align_invocations = false
+resharper_int_align_invocations = false
+csharp_int_align_invocations = false
+resharper_csharp_int_align_invocations = false
+#-
+int_align_binary_expressions = false
+resharper_int_align_binary_expressions = false
+csharp_int_align_binary_expressions = false
+resharper_csharp_int_align_binary_expressions = false
+#-
+int_align_comments = false
+resharper_int_align_comments = false
+csharp_int_align_comments = false
+resharper_csharp_int_align_comments = false
+#-
+int_align_switch_sections = false
+resharper_int_align_switch_sections = false
+csharp_int_align_switch_sections = false
+resharper_csharp_int_align_switch_sections = false
+#-
+int_align_switch_expressions = false
+resharper_int_align_switch_expressions = false
+csharp_int_align_switch_expressions = false
+resharper_csharp_int_align_switch_expressions = false
+#------------------------------------------------------------------------------------------#
+# Braces Layout
+#- this is global and can be used to be default for all other settings below in this section
+brace_style = next_line
+resharper_brace_style = next_line
+csharp_brace_style = next_line
+resharper_csharp_brace_style = next_line
+#-
+indent_inside_namespace = true
+resharper_indent_inside_namespace = true
+csharp_indent_inside_namespace = true
+resharper_csharp_indent_inside_namespace = true
+#-
+invocable_declaration_braces = next_line
+resharper_invocable_declaration_braces = next_line
+csharp_invocable_declaration_braces = next_line
+resharper_csharp_invocable_declaration_braces = next_line
+#-
+anonymous_method_declaration_braces = next_line
+resharper_anonymous_method_declaration_braces = next_line
+csharp_anonymous_method_declaration_braces = next_line
+resharper_csharp_anonymous_method_declaration_braces = next_line
+#-
+accessor_owner_declaration_braces = next_line
+resharper_accessor_owner_declaration_braces = next_line
+csharp_accessor_owner_declaration_braces = next_line
+resharper_csharp_accessor_owner_declaration_braces = next_line
+#-
+accessor_declaration_braces = next_line
+resharper_accessor_declaration_braces = next_line
+csharp_accessor_declaration_braces = next_line
+resharper_csharp_accessor_declaration_braces = next_line
+#-
+case_block_braces = next_line
+resharper_case_block_braces = next_line
+csharp_case_block_braces = next_line
+resharper_csharp_case_block_braces = next_line
+#-
+initializer_braces = next_line
+resharper_initializer_braces = next_line
+csharp_initializer_braces = next_line
+resharper_csharp_initializer_braces = next_line
+#-
+use_continuous_indent_inside_initializer_braces = true
+resharper_use_continuous_indent_inside_initializer_braces = true
+csharp_use_continuous_indent_inside_initializer_braces = true
+resharper_csharp_use_continuous_indent_inside_initializer_braces = true
+#-
+other_braces = next_line
+resharper_other_braces = next_line
+csharp_other_braces = next_line
+resharper_csharp_other_braces = next_line
+#-
+allow_comment_after_lbrace = false
+resharper_allow_comment_after_lbrace = false
+csharp_allow_comment_after_lbrace = false
+resharper_csharp_allow_comment_after_lbrace = false
+#-
+empty_block_style = multiline
+resharper_empty_block_style = multiline
+csharp_empty_block_style = multiline
+resharper_csharp_empty_block_style = multiline
+#-
+# Blank Lines
+## General
+blank_lines_around_region = 1
+resharper_blank_lines_around_region = 1
+csharp_blank_lines_around_region = 1
+resharper_csharp_blank_lines_around_region = 1
+#-
+blank_lines_inside_region = 1
+resharper_blank_lines_inside_region = 1
+csharp_blank_lines_inside_region = 1
+resharper_csharp_blank_lines_inside_region = 1
+#-
+blank_lines_before_single_line_comment = 1
+resharper_blank_lines_before_single_line_comment = 1
+csharp_blank_lines_before_single_line_comment = 1
+resharper_csharp_blank_lines_before_single_line_comment = 1
+#-
+## Blank lines in declarations
+keep_blank_lines_in_declarations = 2
+resharper_keep_blank_lines_in_declarations = 2
+csharp_keep_blank_lines_in_declarations = 2
+resharper_csharp_keep_blank_lines_in_declarations = 2
+#-
+remove_blank_lines_near_braces_in_declarations = true
+resharper_remove_blank_lines_near_braces_in_declarations = true
+csharp_remove_blank_lines_near_braces_in_declarations = true
+resharper_csharp_remove_blank_lines_near_braces_in_declarations = true
+#-
+blank_lines_after_start_comment = 1
+resharper_blank_lines_after_start_comment = 1
+csharp_blank_lines_after_start_comment = 1
+resharper_csharp_blank_lines_after_start_comment = 1
+#-
+remove_spaces_on_blank_lines = true
+resharper_remove_spaces_on_blank_lines = true
+csharp_remove_spaces_on_blank_lines = true
+resharper_csharp_remove_spaces_on_blank_lines = true
+#-
+blank_lines_between_using_groups = 0
+resharper_blank_lines_between_using_groups = 0
+csharp_blank_lines_between_using_groups = 0
+resharper_csharp_blank_lines_between_using_groups = 0
+#-
+blank_lines_after_using_list = 1
+resharper_blank_lines_after_using_list = 1
+csharp_blank_lines_after_using_list = 1
+resharper_csharp_blank_lines_after_using_list = 1
+#-
+blank_lines_around_namespace = 1
+resharper_blank_lines_around_namespace = 1
+csharp_blank_lines_around_namespace = 1
+resharper_csharp_blank_lines_around_namespace = 1
+#-
+blank_lines_inside_namespace = 0
+resharper_blank_lines_inside_namespace = 0
+csharp_blank_lines_inside_namespace = 0
+resharper_csharp_blank_lines_inside_namespace = 0
+#-
+blank_lines_after_file_scoped_namespace_directive = 1
+resharper_blank_lines_after_file_scoped_namespace_directive = 1
+csharp_blank_lines_after_file_scoped_namespace_directive = 1
+resharper_csharp_blank_lines_after_file_scoped_namespace_directive = 1
+#-
+blank_lines_around_type = 1
+resharper_blank_lines_around_type = 1
+csharp_blank_lines_around_type = 1
+resharper_csharp_blank_lines_around_type = 1
+#-
+blank_lines_around_single_line_type = 1
+resharper_blank_lines_around_single_line_type = 1
+csharp_blank_lines_around_single_line_type = 1
+resharper_csharp_blank_lines_around_single_line_type = 1
+#-
+blank_lines_inside_type = 0
+resharper_blank_lines_inside_type = 0
+csharp_blank_lines_inside_type = 0
+resharper_csharp_blank_lines_inside_type = 0
+#-
+blank_lines_around_field = 1
+resharper_blank_lines_around_field = 1
+csharp_blank_lines_around_field = 1
+resharper_csharp_blank_lines_around_field = 1
+#-
+blank_lines_around_single_line_field = 0
+resharper_blank_lines_around_single_line_field = 0
+csharp_blank_lines_around_single_line_field = 0
+resharper_csharp_blank_lines_around_single_line_field = 0
+#-
+blank_lines_around_property = 1
+resharper_blank_lines_around_property = 1
+csharp_blank_lines_around_property = 1
+resharper_csharp_blank_lines_around_property = 1
+#-
+blank_lines_around_single_line_property = 0
+resharper_blank_lines_around_single_line_property = 0
+csharp_blank_lines_around_single_line_property = 0
+resharper_csharp_blank_lines_around_single_line_property = 0
+#-
+blank_lines_around_auto_property = 1
+resharper_blank_lines_around_auto_property = 1
+csharp_blank_lines_around_auto_property = 1
+resharper_csharp_blank_lines_around_auto_property = 1
+#-
+blank_lines_around_single_line_auto_property = 0
+resharper_blank_lines_around_single_line_auto_property = 0
+csharp_blank_lines_around_single_line_auto_property = 0
+resharper_csharp_blank_lines_around_single_line_auto_property = 0
+#-
+blank_lines_around_accessor = 0
+resharper_blank_lines_around_accessor = 0
+csharp_blank_lines_around_accessor = 0
+resharper_csharp_blank_lines_around_accessor = 0
+#-
+blank_lines_around_single_line_accessor = 0
+resharper_blank_lines_around_single_line_accessor = 0
+csharp_blank_lines_around_single_line_accessor = 0
+resharper_csharp_blank_lines_around_single_line_accessor = 0
+#-
+blank_lines_around_invocable = 1
+resharper_blank_lines_around_invocable = 1
+csharp_blank_lines_around_invocable = 1
+resharper_csharp_blank_lines_around_invocable = 1
+#-
+blank_lines_around_single_line_invocable = 0
+resharper_blank_lines_around_single_line_invocable = 0
+csharp_blank_lines_around_single_line_invocable = 0
+resharper_csharp_blank_lines_around_single_line_invocable = 0
+#-
+## Blank lines in code
+keep_blank_lines_in_code = 1
+resharper_keep_blank_lines_in_code = 1
+csharp_keep_blank_lines_in_code = 1
+resharper_csharp_keep_blank_lines_in_code = 1
+#-
+remove_blank_lines_near_braces_in_code = true
+resharper_remove_blank_lines_near_braces_in_code = true
+csharp_remove_blank_lines_near_braces_in_code = true
+resharper_csharp_remove_blank_lines_near_braces_in_code = true
+#-
+blank_lines_around_local_method = 1
+resharper_blank_lines_around_local_method = 1
+csharp_blank_lines_around_local_method = 1
+resharper_csharp_blank_lines_around_local_method = 1
+#-
+blank_lines_around_single_line_local_method = 0
+resharper_blank_lines_around_single_line_local_method = 0
+csharp_blank_lines_around_single_line_local_method = 0
+resharper_csharp_blank_lines_around_single_line_local_method = 0
+#-
+blank_lines_before_control_transfer_statements = 1
+resharper_blank_lines_before_control_transfer_statements = 1
+csharp_blank_lines_before_control_transfer_statements = 1
+resharper_csharp_blank_lines_before_control_transfer_statements = 1
+#-
+blank_lines_after_control_transfer_statements = 1
+resharper_blank_lines_after_control_transfer_statements = 1
+csharp_blank_lines_after_control_transfer_statements = 1
+resharper_csharp_blank_lines_after_control_transfer_statements = 1
+#-
+blank_lines_before_block_statements = 1
+resharper_blank_lines_before_block_statements = 1
+csharp_blank_lines_before_block_statements = 1
+resharper_csharp_blank_lines_before_block_statements = 1
+#-
+blank_lines_after_block_statements = 1
+resharper_blank_lines_after_block_statements = 1
+csharp_blank_lines_after_block_statements = 1
+resharper_csharp_blank_lines_after_block_statements = 1
+#-
+blank_lines_before_multiline_statements = 1
+resharper_blank_lines_before_multiline_statements = 1
+csharp_blank_lines_before_multiline_statements = 1
+resharper_csharp_blank_lines_before_multiline_statements = 1
+#-
+blank_lines_after_multiline_statements = 1
+resharper_blank_lines_after_multiline_statements = 1
+csharp_blank_lines_after_multiline_statements = 1
+resharper_csharp_blank_lines_after_multiline_statements = 1
+#-
+blank_lines_around_block_case_section = 0
+resharper_blank_lines_around_block_case_section = 0
+csharp_blank_lines_around_block_case_section = 0
+resharper_csharp_blank_lines_around_block_case_section = 0
+#-
+blank_lines_around_multiline_case_section = 0
+resharper_blank_lines_around_multiline_case_section = 0
+csharp_blank_lines_around_multiline_case_section = 0
+resharper_csharp_blank_lines_around_multiline_case_section = 0
+#-
+blank_lines_before_case = 0
+resharper_blank_lines_before_case = 0
+csharp_blank_lines_before_case = 0
+resharper_csharp_blank_lines_before_case = 0
+#-
+blank_lines_after_case = 0
+resharper_blank_lines_after_case = 0
+csharp_blank_lines_after_case = 0
+resharper_csharp_blank_lines_after_case = 0
+#-
+#------------------------------------------------------------------------------------------#
+# Line Breaks and Wrapping
+## General
+#- this is global and can be used to be default for all other settings below in this section
+keep_user_linebreaks = false
+resharper_keep_user_linebreaks = false
+csharp_keep_user_linebreaks = false
+resharper_csharp_keep_user_linebreaks = false
+#- this is global and can be used to be default for all other settings below in this section
+keep_existing_linebreaks = false
+resharper_keep_existing_linebreaks = false
+csharp_keep_existing_linebreaks = false
+resharper_csharp_keep_existing_linebreaks = false
+#- this is global and can be used to be default for all other settings below in this section
+keep_existing_arrangement = false
+resharper_keep_existing_arrangement = false
+csharp_keep_existing_arrangement = false
+resharper_csharp_keep_existing_arrangement = false
+#-
+wrap_lines = true
+resharper_wrap_lines = true
+csharp_wrap_lines = true
+resharper_csharp_wrap_lines = true
+#-
+max_line_length = 120
+csharp_max_line_length = 120
+resharper_csharp_max_line_length = 120
+#-
+wrap_before_comma = false
+resharper_wrap_before_comma = false
+csharp_wrap_before_comma = false
+resharper_csharp_wrap_before_comma = false
+#-
+wrap_before_eq = false
+resharper_wrap_before_eq = false
+csharp_wrap_before_eq = false
+resharper_csharp_wrap_before_eq = false
+#-
+prefer_wrap_around_eq = default
+resharper_prefer_wrap_around_eq = default
+csharp_prefer_wrap_around_eq = default
+resharper_csharp_prefer_wrap_around_eq = default
+#-
+special_else_if_treatment = true
+resharper_special_else_if_treatment = true
+csharp_special_else_if_treatment = true
+resharper_csharp_special_else_if_treatment = true
+#-
+insert_final_newline = true
+csharp_insert_final_newline = true
+resharper_csharp_insert_final_newline = true
+#-
+## Arrangement of attributes
+max_attribute_length_for_same_line = 38
+resharper_max_attribute_length_for_same_line = 38
+csharp_max_attribute_length_for_same_line = 38
+resharper_csharp_max_attribute_length_for_same_line = 38
+#-
+keep_existing_attribute_arrangement = false
+resharper_keep_existing_attribute_arrangement = false
+csharp_keep_existing_attribute_arrangement = false
+resharper_csharp_keep_existing_attribute_arrangement = false
+#-
+place_attribute_on_same_line = if_owner_is_single_line
+resharper_place_attribute_on_same_line = if_owner_is_single_line
+csharp_place_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_attribute_on_same_line = if_owner_is_single_line
+#-
+place_type_attribute_on_same_line = if_owner_is_single_line
+resharper_place_type_attribute_on_same_line = if_owner_is_single_line
+csharp_place_type_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_type_attribute_on_same_line = if_owner_is_single_line
+#-
+place_attribute_on_same_line = if_owner_is_single_line
+resharper_place_attribute_on_same_line = if_owner_is_single_line
+csharp_place_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_attribute_on_same_line = if_owner_is_single_line
+#-
+place_method_attribute_on_same_line = if_owner_is_single_line
+resharper_place_method_attribute_on_same_line = if_owner_is_single_line
+csharp_place_method_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_method_attribute_on_same_line = if_owner_is_single_line
+#-
+place_attribute_on_same_line = if_owner_is_single_line
+resharper_place_attribute_on_same_line = if_owner_is_single_line
+csharp_place_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_attribute_on_same_line = if_owner_is_single_line
+#-
+place_accessorholder_attribute_on_same_line = if_owner_is_single_line
+resharper_place_accessorholder_attribute_on_same_line = if_owner_is_single_line
+csharp_place_accessorholder_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_accessorholder_attribute_on_same_line = if_owner_is_single_line
+#-
+place_attribute_on_same_line = if_owner_is_single_line
+resharper_place_attribute_on_same_line = if_owner_is_single_line
+csharp_place_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_attribute_on_same_line = if_owner_is_single_line
+#-
+place_accessor_attribute_on_same_line = if_owner_is_single_line
+resharper_place_accessor_attribute_on_same_line = if_owner_is_single_line
+csharp_place_accessor_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_accessor_attribute_on_same_line = if_owner_is_single_line
+#-
+place_attribute_on_same_line = always
+resharper_place_attribute_on_same_line = always
+csharp_place_attribute_on_same_line = always
+resharper_csharp_place_attribute_on_same_line = always
+#-
+place_field_attribute_on_same_line = always
+resharper_place_field_attribute_on_same_line = always
+csharp_place_field_attribute_on_same_line = always
+resharper_csharp_place_field_attribute_on_same_line = always
+#-
+place_attribute_on_same_line = if_owner_is_single_line
+resharper_place_attribute_on_same_line = if_owner_is_single_line
+csharp_place_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_attribute_on_same_line = if_owner_is_single_line
+#-
+place_record_field_attribute_on_same_line = if_owner_is_single_line
+resharper_place_record_field_attribute_on_same_line = if_owner_is_single_line
+csharp_place_record_field_attribute_on_same_line = if_owner_is_single_line
+resharper_csharp_place_record_field_attribute_on_same_line = if_owner_is_single_line
+#-
+## Arrangement of methods signatures
+wrap_parameters_style = wrap_if_long
+resharper_wrap_parameters_style = wrap_if_long
+csharp_wrap_parameters_style = wrap_if_long
+resharper_csharp_wrap_parameters_style = wrap_if_long
+#-
+max_formal_parameters_on_line = 1
+resharper_max_formal_parameters_on_line = 1
+csharp_max_formal_parameters_on_line = 1
+resharper_csharp_max_formal_parameters_on_line = 1
+#-
+keep_existing_declaration_parens_arrangement = true
+resharper_keep_existing_declaration_parens_arrangement = true
+csharp_keep_existing_declaration_parens_arrangement = true
+resharper_csharp_keep_existing_declaration_parens_arrangement = true
+#-
+wrap_before_declaration_lpar = false
+resharper_wrap_before_declaration_lpar = false
+csharp_wrap_before_declaration_lpar = false
+resharper_csharp_wrap_before_declaration_lpar = false
+#-
+wrap_after_declaration_lpar = true
+resharper_wrap_after_declaration_lpar = true
+csharp_wrap_after_declaration_lpar = true
+resharper_csharp_wrap_after_declaration_lpar = true
+#-
+wrap_before_declaration_rpar = false
+resharper_wrap_before_declaration_rpar = false
+csharp_wrap_before_declaration_rpar = false
+resharper_csharp_wrap_before_declaration_rpar = false
+#-
+place_constructor_initializer_on_same_line = true
+resharper_place_constructor_initializer_on_same_line = true
+csharp_place_constructor_initializer_on_same_line = true
+resharper_csharp_place_constructor_initializer_on_same_line = true
+#-
+## Arrangement of primary constructor signatures
+wrap_primary_constructor_parameters_style = chop_if_long
+resharper_wrap_primary_constructor_parameters_style = chop_if_long
+csharp_wrap_primary_constructor_parameters_style = chop_if_long
+resharper_csharp_wrap_primary_constructor_parameters_style = chop_if_long
+#-
+max_primary_constructor_parameters_on_line = 1
+resharper_max_primary_constructor_parameters_on_line = 1
+csharp_max_primary_constructor_parameters_on_line = 1
+resharper_csharp_max_primary_constructor_parameters_on_line = 1
+#-
+keep_existing_primary_constructor_declaration_parens_arrangement = false
+resharper_keep_existing_primary_constructor_declaration_parens_arrangement = false
+csharp_keep_existing_primary_constructor_declaration_parens_arrangement = false
+resharper_csharp_keep_existing_primary_constructor_declaration_parens_arrangement = false
+#-
+wrap_before_primary_constructor_declaration_lpar = false
+resharper_wrap_before_primary_constructor_declaration_lpar = false
+csharp_wrap_before_primary_constructor_declaration_lpar = false
+resharper_csharp_wrap_before_primary_constructor_declaration_lpar = false
+#-
+wrap_after_primary_constructor_declaration_lpar = true
+resharper_wrap_after_primary_constructor_declaration_lpar = true
+csharp_wrap_after_primary_constructor_declaration_lpar = true
+resharper_csharp_wrap_after_primary_constructor_declaration_lpar = true
+#-
+wrap_before_primary_constructor_declaration_rpar = false
+resharper_wrap_before_primary_constructor_declaration_rpar = false
+csharp_wrap_before_primary_constructor_declaration_rpar = false
+resharper_csharp_wrap_before_primary_constructor_declaration_rpar = false
+#-
+place_primary_constructor_initializer_on_same_line = true
+resharper_place_primary_constructor_initializer_on_same_line = true
+csharp_place_primary_constructor_initializer_on_same_line = true
+resharper_csharp_place_primary_constructor_initializer_on_same_line = true
+#-
+## Arrangement of expression bodied members
+keep_existing_expr_member_arrangement = false
+resharper_keep_existing_expr_member_arrangement = false
+csharp_keep_existing_expr_member_arrangement = false
+resharper_csharp_keep_existing_expr_member_arrangement = false
+#-
+place_expr_method_on_single_line = if_owner_is_single_line
+resharper_place_expr_method_on_single_line = if_owner_is_single_line
+csharp_place_expr_method_on_single_line = if_owner_is_single_line
+resharper_csharp_place_expr_method_on_single_line = if_owner_is_single_line
+#-
+place_expr_property_on_single_line = if_owner_is_single_line
+resharper_place_expr_property_on_single_line = if_owner_is_single_line
+csharp_place_expr_property_on_single_line = if_owner_is_single_line
+resharper_csharp_place_expr_property_on_single_line = if_owner_is_single_line
+#-
+place_expr_accessor_on_single_line = if_owner_is_single_line
+resharper_place_expr_accessor_on_single_line = if_owner_is_single_line
+csharp_place_expr_accessor_on_single_line = if_owner_is_single_line
+resharper_csharp_place_expr_accessor_on_single_line = if_owner_is_single_line
+#-
+wrap_before_arrow_with_expressions = false
+resharper_wrap_before_arrow_with_expressions = false
+csharp_wrap_before_arrow_with_expressions = false
+resharper_csharp_wrap_before_arrow_with_expressions = false
+#-
+## Arrangement of type parameters, constraints, and base types
+place_type_constraints_on_same_line = true
+resharper_place_type_constraints_on_same_line = true
+csharp_place_type_constraints_on_same_line = true
+resharper_csharp_place_type_constraints_on_same_line = true
+#-
+wrap_before_first_type_parameter_constraint = true
+resharper_wrap_before_first_type_parameter_constraint = true
+csharp_wrap_before_first_type_parameter_constraint = true
+resharper_csharp_wrap_before_first_type_parameter_constraint = true
+#-
+wrap_multiple_type_parameter_constraints_style = chop_if_long
+resharper_wrap_multiple_type_parameter_constraints_style = chop_if_long
+csharp_wrap_multiple_type_parameter_constraints_style = chop_if_long
+resharper_csharp_wrap_multiple_type_parameter_constraints_style = chop_if_long
+#-
+wrap_before_type_parameter_langle = false
+resharper_wrap_before_type_parameter_langle = false
+csharp_wrap_before_type_parameter_langle = false
+resharper_csharp_wrap_before_type_parameter_langle = false
+#-
+wrap_before_extends_colon = false
+resharper_wrap_before_extends_colon = false
+csharp_wrap_before_extends_colon = false
+resharper_csharp_wrap_before_extends_colon = false
+#-
+wrap_extends_list_style = chop_if_long
+resharper_wrap_extends_list_style = chop_if_long
+csharp_wrap_extends_list_style = chop_if_long
+resharper_csharp_wrap_extends_list_style = chop_if_long
+#-
+## Arrangement of declaration blocks
+keep_existing_declaration_block_arrangement = false
+resharper_keep_existing_declaration_block_arrangement = false
+csharp_keep_existing_declaration_block_arrangement = false
+resharper_csharp_keep_existing_declaration_block_arrangement = false
+#- this is global and can be used to be default for all other settings below in this section
+place_simple_blocks_on_single_line = true
+resharper_place_simple_blocks_on_single_line = true
+csharp_place_simple_blocks_on_single_line = true
+resharper_csharp_place_simple_blocks_on_single_line = true
+#- this is global and can be used to be default for all other settings below in this section
+place_simple_declaration_blocks_on_single_line = true
+resharper_place_simple_declaration_blocks_on_single_line = true
+csharp_place_simple_declaration_blocks_on_single_line = true
+resharper_csharp_place_simple_declaration_blocks_on_single_line = true
+#-
+place_abstract_accessorholder_on_single_line = true
+resharper_place_abstract_accessorholder_on_single_line = true
+csharp_place_abstract_accessorholder_on_single_line = true
+resharper_csharp_place_abstract_accessorholder_on_single_line = true
+#-
+place_accessor_with_attrs_holder_on_single_line = false
+resharper_place_accessor_with_attrs_holder_on_single_line = false
+csharp_place_accessor_with_attrs_holder_on_single_line = false
+resharper_csharp_place_accessor_with_attrs_holder_on_single_line = false
+#-
+place_simple_accessor_on_single_line = true
+resharper_place_simple_accessor_on_single_line = true
+csharp_place_simple_accessor_on_single_line = true
+resharper_csharp_place_simple_accessor_on_single_line = true
+#-
+place_simple_method_on_single_line = true
+resharper_place_simple_method_on_single_line = true
+csharp_place_simple_method_on_single_line = true
+resharper_csharp_place_simple_method_on_single_line = true
+#-
+## Arrangement of enumerations
+keep_existing_enum_arrangement = false
+resharper_keep_existing_enum_arrangement = false
+csharp_keep_existing_enum_arrangement = false
+resharper_csharp_keep_existing_enum_arrangement = false
+#-
+max_enum_members_on_line = 3
+resharper_max_enum_members_on_line = 3
+csharp_max_enum_members_on_line = 3
+resharper_csharp_max_enum_members_on_line = 3
+#-
+place_simple_enum_on_single_line = false
+resharper_place_simple_enum_on_single_line = false
+csharp_place_simple_enum_on_single_line = false
+resharper_csharp_place_simple_enum_on_single_line = false
+#-
+wrap_enum_declaration = chop_always
+resharper_wrap_enum_declaration = chop_always
+csharp_wrap_enum_declaration = chop_always
+resharper_csharp_wrap_enum_declaration = chop_always
+#-
+## Arrangement of statements
+new_line_before_else = false
+csharp_new_line_before_else = false
+resharper_new_line_before_else = false
+#-
+new_line_before_while = false
+resharper_new_line_before_while = false
+csharp_new_line_before_while = false
+resharper_csharp_new_line_before_while = false
+#-
+new_line_before_catch = false
+csharp_new_line_before_catch = false
+resharper_new_line_before_catch = false
+#-
+new_line_before_finally = false
+csharp_new_line_before_finally = false
+resharper_new_line_before_finally = false
+#-
+wrap_for_stmt_header_style = chop_if_long
+resharper_wrap_for_stmt_header_style = chop_if_long
+csharp_wrap_for_stmt_header_style = chop_if_long
+resharper_csharp_wrap_for_stmt_header_style = chop_if_long
+#-
+wrap_multiple_declaration_style = chop_if_long
+resharper_wrap_multiple_declaration_style = chop_if_long
+csharp_wrap_multiple_declaration_style = chop_if_long
+resharper_csharp_wrap_multiple_declaration_style = chop_if_long
+#-
+## Arrangement of embedded statements
+keep_existing_embedded_arrangement = false
+resharper_keep_existing_embedded_arrangement = false
+csharp_keep_existing_embedded_arrangement = false
+resharper_csharp_keep_existing_embedded_arrangement = false
+#-
+place_simple_embedded_statement_on_same_line = if_owner_is_single_line
+resharper_place_simple_embedded_statement_on_same_line = if_owner_is_single_line
+csharp_place_simple_embedded_statement_on_same_line = if_owner_is_single_line
+resharper_csharp_place_simple_embedded_statement_on_same_line = if_owner_is_single_line
+#-
+place_simple_case_statement_on_same_line = never
+resharper_place_simple_case_statement_on_same_line = never
+csharp_place_simple_case_statement_on_same_line = never
+resharper_csharp_place_simple_case_statement_on_same_line = never
+#-
+treat_case_statement_with_break_as_simple = true
+resharper_treat_case_statement_with_break_as_simple = true
+csharp_treat_case_statement_with_break_as_simple = true
+resharper_csharp_treat_case_statement_with_break_as_simple = true
+#-
+## Arrangement of embedded blocks
+keep_existing_embedded_block_arrangement = false
+resharper_keep_existing_embedded_block_arrangement = false
+csharp_keep_existing_embedded_block_arrangement = false
+resharper_csharp_keep_existing_embedded_block_arrangement = false
+#-
+place_simple_embedded_block_on_same_line = false
+resharper_place_simple_embedded_block_on_same_line = false
+csharp_place_simple_embedded_block_on_same_line = false
+resharper_csharp_place_simple_embedded_block_on_same_line = false
+#-
+place_simple_anonymousmethod_on_single_line = true
+resharper_place_simple_anonymousmethod_on_single_line = true
+csharp_place_simple_anonymousmethod_on_single_line = true
+resharper_csharp_place_simple_anonymousmethod_on_single_line = true
+#-
+## Arrangement of switch expressions
+keep_existing_switch_expression_arrangement = true
+resharper_keep_existing_switch_expression_arrangement = true
+csharp_keep_existing_switch_expression_arrangement = true
+resharper_csharp_keep_existing_switch_expression_arrangement = true
+#-
+place_simple_switch_expression_on_single_line = false
+resharper_place_simple_switch_expression_on_single_line = false
+csharp_place_simple_switch_expression_on_single_line = false
+resharper_csharp_place_simple_switch_expression_on_single_line = false
+#-
+wrap_switch_expression = chop_always
+resharper_wrap_switch_expression = chop_always
+csharp_wrap_switch_expression = chop_always
+resharper_csharp_wrap_switch_expression = chop_always
+#-
+## Arrangement of property patterns
+keep_existing_property_pattern_arrangement = true
+resharper_keep_existing_property_pattern_arrangement = true
+csharp_keep_existing_property_pattern_arrangement = true
+resharper_csharp_keep_existing_property_pattern_arrangement = true
+#-
+place_simple_property_pattern_on_single_line = true
+resharper_place_simple_property_pattern_on_single_line = true
+csharp_place_simple_property_pattern_on_single_line = true
+resharper_csharp_place_simple_property_pattern_on_single_line = true
+#-
+wrap_property_pattern = chop_if_long
+resharper_wrap_property_pattern = chop_if_long
+csharp_wrap_property_pattern = chop_if_long
+resharper_csharp_wrap_property_pattern = chop_if_long
+#-
+## Arrangement of list patterns
+keep_existing_list_patterns_arrangement = true
+resharper_keep_existing_list_patterns_arrangement = true
+csharp_keep_existing_list_patterns_arrangement = true
+resharper_csharp_keep_existing_list_patterns_arrangement = true
+#-
+place_simple_list_pattern_on_single_line = true
+resharper_place_simple_list_pattern_on_single_line = true
+csharp_place_simple_list_pattern_on_single_line = true
+resharper_csharp_place_simple_list_pattern_on_single_line = true
+#-
+wrap_list_pattern = wrap_if_long
+resharper_wrap_list_pattern = wrap_if_long
+csharp_wrap_list_pattern = wrap_if_long
+resharper_csharp_wrap_list_pattern = wrap_if_long
+#-
+## Arrangement of initializers
+keep_existing_initializer_arrangement = false
+resharper_keep_existing_initializer_arrangement = false
+csharp_keep_existing_initializer_arrangement = false
+resharper_csharp_keep_existing_initializer_arrangement = false
+#-
+place_simple_initializer_on_single_line = true
+resharper_place_simple_initializer_on_single_line = true
+csharp_place_simple_initializer_on_single_line = true
+resharper_csharp_place_simple_initializer_on_single_line = true
+#-
+max_initializer_elements_on_line = 4
+resharper_max_initializer_elements_on_line = 4
+csharp_max_initializer_elements_on_line = 4
+resharper_csharp_max_initializer_elements_on_line = 4
+#-
+wrap_object_and_collection_initializer_style = chop_if_long
+resharper_wrap_object_and_collection_initializer_style = chop_if_long
+csharp_wrap_object_and_collection_initializer_style = chop_if_long
+resharper_csharp_wrap_object_and_collection_initializer_style = chop_if_long
+#-
+max_array_initializer_elements_on_line = 4
+resharper_max_array_initializer_elements_on_line = 4
+csharp_max_array_initializer_elements_on_line = 4
+resharper_csharp_max_array_initializer_elements_on_line = 4
+#-
+wrap_initializer = wrap_if_long
+resharper_wrap_initializer = wrap_if_long
+csharp_wrap_initializer = wrap_if_long
+resharper_csharp_wrap_initializer = wrap_if_long
+#-
+## Arrangement of invocations
+wrap_arguments_style = wrap_if_long
+resharper_wrap_arguments_style = wrap_if_long
+csharp_wrap_arguments_style = wrap_if_long
+resharper_csharp_wrap_arguments_style = wrap_if_long
+#-
+max_invocation_arguments_on_line = 4
+resharper_max_invocation_arguments_on_line = 4
+csharp_max_invocation_arguments_on_line = 4
+resharper_csharp_max_invocation_arguments_on_line = 4
+#-
+keep_existing_invocation_parens_arrangement = false
+resharper_keep_existing_invocation_parens_arrangement = false
+csharp_keep_existing_invocation_parens_arrangement = false
+resharper_csharp_keep_existing_invocation_parens_arrangement = false
+#-
+wrap_before_invocation_lpar = false
+resharper_wrap_before_invocation_lpar = false
+csharp_wrap_before_invocation_lpar = false
+resharper_csharp_wrap_before_invocation_lpar = false
+#-
+wrap_after_invocation_lpar = false
+resharper_wrap_after_invocation_lpar = false
+csharp_wrap_after_invocation_lpar = false
+resharper_csharp_wrap_after_invocation_lpar = false
+#-
+wrap_before_invocation_rpar = false
+resharper_wrap_before_invocation_rpar = false
+csharp_wrap_before_invocation_rpar = false
+resharper_csharp_wrap_before_invocation_rpar = false
+#-
+place_single_method_argument_lambda_on_same_line = true
+resharper_place_single_method_argument_lambda_on_same_line = true
+csharp_place_single_method_argument_lambda_on_same_line = true
+resharper_csharp_place_single_method_argument_lambda_on_same_line = true
+#-
+## Arrangement of member access expressions
+wrap_after_dot_in_method_calls = false
+resharper_wrap_after_dot_in_method_calls = false
+csharp_wrap_after_dot_in_method_calls = false
+resharper_csharp_wrap_after_dot_in_method_calls = false
+#-
+wrap_chained_method_calls = wrap_if_long
+resharper_wrap_chained_method_calls = wrap_if_long
+csharp_wrap_chained_method_calls = wrap_if_long
+resharper_csharp_wrap_chained_method_calls = wrap_if_long
+#-
+wrap_before_first_method_call = false
+resharper_wrap_before_first_method_call = false
+csharp_wrap_before_first_method_call = false
+resharper_csharp_wrap_before_first_method_call = false
+#-
+wrap_after_property_in_chained_method_calls = false
+resharper_wrap_after_property_in_chained_method_calls = false
+csharp_wrap_after_property_in_chained_method_calls = false
+resharper_csharp_wrap_after_property_in_chained_method_calls = false
+#-
+## Arrangement of binary expressions
+wrap_before_binary_opsign = false
+resharper_wrap_before_binary_opsign = false
+csharp_wrap_before_binary_opsign = false
+resharper_csharp_wrap_before_binary_opsign = false
+#-
+wrap_chained_binary_expressions = wrap_if_long
+resharper_wrap_chained_binary_expressions = wrap_if_long
+csharp_wrap_chained_binary_expressions = wrap_if_long
+resharper_csharp_wrap_chained_binary_expressions = wrap_if_long
+#-
+wrap_before_binary_pattern_op = false
+resharper_wrap_before_binary_pattern_op = false
+csharp_wrap_before_binary_pattern_op = false
+resharper_csharp_wrap_before_binary_pattern_op = false
+#-
+wrap_chained_binary_patterns = chop_if_long
+resharper_wrap_chained_binary_patterns = chop_if_long
+csharp_wrap_chained_binary_patterns = chop_if_long
+resharper_csharp_wrap_chained_binary_patterns = chop_if_long
+#-
+force_chop_compound_if_expression = false
+resharper_force_chop_compound_if_expression = false
+csharp_force_chop_compound_if_expression = false
+resharper_csharp_force_chop_compound_if_expression = false
+#-
+force_chop_compound_while_expression = false
+resharper_force_chop_compound_while_expression = false
+csharp_force_chop_compound_while_expression = false
+resharper_csharp_force_chop_compound_while_expression = false
+#-
+force_chop_compound_do_expression = false
+resharper_force_chop_compound_do_expression = false
+csharp_force_chop_compound_do_expression = false
+resharper_csharp_force_chop_compound_do_expression = false
+#-
+## Arrangement of ternary expressions
+wrap_before_ternary_opsigns = true
+resharper_wrap_before_ternary_opsigns = true
+csharp_wrap_before_ternary_opsigns = true
+resharper_csharp_wrap_before_ternary_opsigns = true
+#-
+wrap_ternary_expr_style = chop_if_long
+resharper_wrap_ternary_expr_style = chop_if_long
+csharp_wrap_ternary_expr_style = chop_if_long
+resharper_csharp_wrap_ternary_expr_style = chop_if_long
+#-
+nested_ternary_style = autodetect
+resharper_nested_ternary_style = autodetect
+csharp_nested_ternary_style = autodetect
+resharper_csharp_nested_ternary_style = autodetect
+#-
+## Arrangement of LINQ expressions
+wrap_linq_expressions = chop_if_long
+resharper_wrap_linq_expressions = chop_if_long
+csharp_wrap_linq_expressions = chop_if_long
+resharper_csharp_wrap_linq_expressions = chop_if_long
+#-
+wrap_before_linq_expression = true
+resharper_wrap_before_linq_expression = true
+csharp_wrap_before_linq_expression = true
+resharper_csharp_wrap_before_linq_expression = true
+#-
+place_linq_into_on_new_line = false
+resharper_place_linq_into_on_new_line = false
+csharp_place_linq_into_on_new_line = false
+resharper_csharp_place_linq_into_on_new_line = false
+#-
+## Arrangement of interpolated strings
+wrap_verbatim_interpolated_strings = no_wrap
+resharper_wrap_verbatim_interpolated_strings = no_wrap
+csharp_wrap_verbatim_interpolated_strings = no_wrap
+resharper_csharp_wrap_verbatim_interpolated_strings = no_wrap
+#-
+wrap_interpolated_strings = no_wrap
+resharper_wrap_interpolated_strings = no_wrap
+csharp_wrap_interpolated_strings = no_wrap
+resharper_csharp_wrap_interpolated_strings = no_wrap
+#-
+## Arragement of comments
+wrap_comments = false
+resharper_wrap_comments = false
+csharp_wrap_comments = false
+resharper_csharp_wrap_comments = false
+#-
+#------------------------------------------------------------------------------------------#
+# Spaces
+## Preserve existing formatting
+extra_spaces = remove_all
+resharper_extra_spaces = remove_all
+csharp_extra_spaces = remove_all
+resharper_csharp_extra_spaces = remove_all
+#-
+## Before parentheses in statements
+#- this is global and can be used to be default for all other settings below in this section
+space_after_keywords_in_control_flow_statements = true
+csharp_space_after_keywords_in_control_flow_statements = true
+resharper_space_after_keywords_in_control_flow_statements = true
+#-
+space_before_if_parentheses = true
+resharper_space_before_if_parentheses = true
+csharp_space_before_if_parentheses = true
+resharper_csharp_space_before_if_parentheses = true
+#-
+space_before_while_parentheses = true
+resharper_space_before_while_parentheses = true
+csharp_space_before_while_parentheses = true
+resharper_csharp_space_before_while_parentheses = true
+#-
+space_before_catch_parentheses = true
+resharper_space_before_catch_parentheses = true
+csharp_space_before_catch_parentheses = true
+resharper_csharp_space_before_catch_parentheses = true
+#-
+space_before_switch_parentheses = true
+resharper_space_before_switch_parentheses = true
+csharp_space_before_switch_parentheses = true
+resharper_csharp_space_before_switch_parentheses = true
+#-
+space_before_for_parentheses = true
+resharper_space_before_for_parentheses = true
+csharp_space_before_for_parentheses = true
+resharper_csharp_space_before_for_parentheses = true
+#-
+space_before_foreach_parentheses = true
+resharper_space_before_foreach_parentheses = true
+csharp_space_before_foreach_parentheses = true
+resharper_csharp_space_before_foreach_parentheses = true
+#-
+space_before_using_parentheses = true
+resharper_space_before_using_parentheses = true
+csharp_space_before_using_parentheses = true
+resharper_csharp_space_before_using_parentheses = true
+#-
+space_before_lock_parentheses = true
+resharper_space_before_lock_parentheses = true
+csharp_space_before_lock_parentheses = true
+resharper_csharp_space_before_lock_parentheses = true
+#-
+space_before_fixed_parentheses = true
+resharper_space_before_fixed_parentheses = true
+csharp_space_before_fixed_parentheses = true
+resharper_csharp_space_before_fixed_parentheses = true
+#-
+## Before other parentheses
+#- this is global and can be used to be default for all other settings below in this section
+space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+resharper_csharp_space_between_method_call_name_and_opening_parenthesis = false
+#-
+space_before_method_call_parentheses = false
+resharper_space_before_method_call_parentheses = false
+csharp_space_before_method_call_parentheses = false
+resharper_csharp_space_before_method_call_parentheses = false
+#-
+space_before_empty_method_call_parentheses = false
+resharper_space_before_empty_method_call_parentheses = false
+csharp_space_before_empty_method_call_parentheses = false
+resharper_csharp_space_before_empty_method_call_parentheses = false
+#-
+space_before_method_parentheses = false
+resharper_space_before_method_parentheses = false
+csharp_space_before_method_parentheses = false
+resharper_csharp_space_before_method_parentheses = false
+#-
+space_before_empty_method_parentheses = false
+resharper_space_before_empty_method_parentheses = false
+csharp_space_before_empty_method_parentheses = false
+resharper_csharp_space_before_empty_method_parentheses = false
+#-
+space_before_typeof_parentheses = false
+resharper_space_before_typeof_parentheses = false
+csharp_space_before_typeof_parentheses = false
+resharper_csharp_space_before_typeof_parentheses = false
+#-
+space_before_default_parentheses = false
+resharper_space_before_default_parentheses = false
+csharp_space_before_default_parentheses = false
+resharper_csharp_space_before_default_parentheses = false
+#-
+space_before_checked_parentheses = false
+resharper_space_before_checked_parentheses = false
+csharp_space_before_checked_parentheses = false
+resharper_csharp_space_before_checked_parentheses = false
+#-
+space_before_sizeof_parentheses = false
+resharper_space_before_sizeof_parentheses = false
+csharp_space_before_sizeof_parentheses = false
+resharper_csharp_space_before_sizeof_parentheses = false
+#-
+space_before_nameof_parentheses = false
+resharper_space_before_nameof_parentheses = false
+csharp_space_before_nameof_parentheses = false
+resharper_csharp_space_before_nameof_parentheses = false
+#-
+space_before_new_parentheses = false
+resharper_space_before_new_parentheses = false
+csharp_space_before_new_parentheses = false
+resharper_csharp_space_before_new_parentheses = false
+#-
+space_between_keyword_and_expression = true
+resharper_space_between_keyword_and_expression = true
+csharp_space_between_keyword_and_expression = true
+resharper_csharp_space_between_keyword_and_expression = true
+#-
+space_between_keyword_and_type = true
+resharper_space_between_keyword_and_type = true
+csharp_space_between_keyword_and_type = true
+resharper_csharp_space_between_keyword_and_type = true
+#-
+## Within parentheses in statements
+#- this is global and can be used to be default for all other settings below in this section
+space_between_parentheses_of_control_flow_statements = false
+resharper_space_between_parentheses_of_control_flow_statements = false
+csharp_space_between_parentheses_of_control_flow_statements = false
+resharper_csharp_space_between_parentheses_of_control_flow_statements = false
+#-
+space_within_if_parentheses = false
+resharper_space_within_if_parentheses = false
+csharp_space_within_if_parentheses = false
+resharper_csharp_space_within_if_parentheses = false
+#-
+space_within_while_parentheses = false
+resharper_space_within_while_parentheses = false
+csharp_space_within_while_parentheses = false
+resharper_csharp_space_within_while_parentheses = false
+#-
+space_within_catch_parentheses = false
+resharper_space_within_catch_parentheses = false
+csharp_space_within_catch_parentheses = false
+resharper_csharp_space_within_catch_parentheses = false
+#-
+space_within_switch_parentheses = false
+resharper_space_within_switch_parentheses = false
+csharp_space_within_switch_parentheses = false
+resharper_csharp_space_within_switch_parentheses = false
+#-
+space_within_for_parentheses = false
+resharper_space_within_for_parentheses = false
+csharp_space_within_for_parentheses = false
+resharper_csharp_space_within_for_parentheses = false
+#-
+space_within_foreach_parentheses = false
+resharper_space_within_foreach_parentheses = false
+csharp_space_within_foreach_parentheses = false
+resharper_csharp_space_within_foreach_parentheses = false
+#-
+space_within_using_parentheses = false
+resharper_space_within_using_parentheses = false
+csharp_space_within_using_parentheses = false
+resharper_csharp_space_within_using_parentheses = false
+#-
+space_within_lock_parentheses = false
+resharper_space_within_lock_parentheses = false
+csharp_space_within_lock_parentheses = false
+resharper_csharp_space_within_lock_parentheses = false
+#-
+space_within_fixed_parentheses = false
+resharper_space_within_fixed_parentheses = false
+csharp_space_within_fixed_parentheses = false
+resharper_csharp_space_within_fixed_parentheses = false
+#-
+## Within other parentheses
+space_within_parentheses = false
+resharper_space_within_parentheses = false
+csharp_space_within_parentheses = false
+resharper_csharp_space_within_parentheses = false
+#-
+space_between_typecast_parentheses = false
+resharper_space_between_typecast_parentheses = false
+csharp_space_between_typecast_parentheses = false
+resharper_csharp_space_between_typecast_parentheses = false
+#-
+space_between_method_declaration_parameter_list_parentheses = false
+resharper_space_between_method_declaration_parameter_list_parentheses = false
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+resharper_csharp_space_between_method_declaration_parameter_list_parentheses = false
+#-
+space_between_method_declaration_empty_parameter_list_parentheses = false
+resharper_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+resharper_csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+#-
+space_between_method_call_parameter_list_parentheses = false
+resharper_space_between_method_call_parameter_list_parentheses = false
+csharp_space_between_method_call_parameter_list_parentheses = false
+resharper_csharp_space_between_method_call_parameter_list_parentheses = false
+#-
+space_between_method_call_empty_parameter_list_parentheses = false
+resharper_space_between_method_call_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
+resharper_csharp_space_between_method_call_empty_parameter_list_parentheses = false
+#-
+space_within_typeof_parentheses = false
+resharper_space_within_typeof_parentheses = false
+csharp_space_within_typeof_parentheses = false
+resharper_csharp_space_within_typeof_parentheses = false
+#-
+space_within_default_parentheses = false
+resharper_space_within_default_parentheses = false
+csharp_space_within_default_parentheses = false
+resharper_csharp_space_within_default_parentheses = false
+#-
+space_within_checked_parentheses = false
+resharper_space_within_checked_parentheses = false
+csharp_space_within_checked_parentheses = false
+resharper_csharp_space_within_checked_parentheses = false
+#-
+space_within_sizeof_parentheses = false
+resharper_space_within_sizeof_parentheses = false
+csharp_space_within_sizeof_parentheses = false
+resharper_csharp_space_within_sizeof_parentheses = false
+#-
+space_within_nameof_parentheses = false
+resharper_space_within_nameof_parentheses = false
+csharp_space_within_nameof_parentheses = false
+resharper_csharp_space_within_nameof_parentheses = false
+#-
+space_within_new_parentheses = false
+resharper_space_within_new_parentheses = false
+csharp_space_within_new_parentheses = false
+resharper_csharp_space_within_new_parentheses = false
+#-
+## Around array brackets
+#- this is global and can be used to be default for all other settings below in this section
+space_before_open_square_brackets = false
+csharp_space_before_open_square_brackets = false
+resharper_csharp_space_before_open_square_bracket = false
+#-
+space_before_array_access_brackets = false
+resharper_space_before_array_access_brackets = false
+csharp_space_before_array_access_brackets = false
+resharper_csharp_space_before_array_access_brackets = false
+#-
+space_before_array_rank_brackets = false
+resharper_space_before_array_rank_brackets = false
+csharp_space_before_array_rank_brackets = false
+resharper_csharp_space_before_array_rank_brackets = false
+#-
+space_within_array_access_brackets = false
+resharper_space_within_array_access_brackets = false
+csharp_space_within_array_access_brackets = false
+resharper_csharp_space_within_array_access_brackets = false
+#-
+space_within_list_pattern_brackets = false
+resharper_space_within_list_pattern_brackets = false
+csharp_space_within_list_pattern_brackets = false
+resharper_csharp_space_within_list_pattern_brackets = false
+#-
+space_within_array_rank_brackets = false
+resharper_space_within_array_rank_brackets = false
+csharp_space_within_array_rank_brackets = false
+resharper_csharp_space_within_array_rank_brackets = false
+#-
+space_within_array_rank_empty_brackets = false
+resharper_space_within_array_rank_empty_brackets = false
+csharp_space_within_array_rank_empty_brackets = false
+resharper_csharp_space_within_array_rank_empty_brackets = false
+#-
+## Around angle brackets
+space_before_type_parameter_angle = false
+resharper_space_before_type_parameter_angle = false
+csharp_space_before_type_parameter_angle = false
+resharper_csharp_space_before_type_parameter_angle = false
+#-
+space_before_type_argument_angle = false
+resharper_space_before_type_argument_angle = false
+csharp_space_before_type_argument_angle = false
+resharper_csharp_space_before_type_argument_angle = false
+#-
+space_within_type_parameter_angles = false
+resharper_space_within_type_parameter_angles = false
+csharp_space_within_type_parameter_angles = false
+resharper_csharp_space_within_type_parameter_angles = false
+#-
+space_within_type_argument_angles = false
+resharper_space_within_type_argument_angles = false
+csharp_space_within_type_argument_angles = false
+resharper_csharp_space_within_type_argument_angles = false
+#-
+## Around braces
+space_before_singleline_accessorholder = true
+resharper_space_before_singleline_accessorholder = true
+csharp_space_before_singleline_accessorholder = true
+resharper_csharp_space_before_singleline_accessorholder = true
+#-
+space_in_singleline_accessorholder = true
+resharper_space_in_singleline_accessorholder = true
+csharp_space_in_singleline_accessorholder = true
+resharper_csharp_space_in_singleline_accessorholder = true
+#-
+space_between_accessors_in_singleline_property = true
+resharper_space_between_accessors_in_singleline_property = true
+csharp_space_between_accessors_in_singleline_property = true
+resharper_csharp_space_between_accessors_in_singleline_property = true
+#-
+space_within_empty_braces = true
+resharper_space_within_empty_braces = true
+csharp_space_within_empty_braces = true
+resharper_csharp_space_within_empty_braces = true
+#-
+space_in_singleline_method = true
+resharper_space_in_singleline_method = true
+csharp_space_in_singleline_method = true
+resharper_csharp_space_in_singleline_method = true
+#-
+space_in_singleline_anonymous_method = true
+resharper_space_in_singleline_anonymous_method = true
+csharp_space_in_singleline_anonymous_method = true
+resharper_csharp_space_in_singleline_anonymous_method = true
+#-
+space_within_single_line_array_initializer_braces = true
+resharper_space_within_single_line_array_initializer_braces = true
+csharp_space_within_single_line_array_initializer_braces = true
+resharper_csharp_space_within_single_line_array_initializer_braces = true
+#-
+## Around binary operators
+#- this is global and can be used to be default for all other settings below in this section
+space_around_binary_operator = true
+resharper_space_around_binary_operator = true
+csharp_space_around_binary_operator = true
+resharper_csharp_space_around_binary_operator = true
+#-
+space_around_assignment_op = true
+resharper_space_around_assignment_op = true
+csharp_space_around_assignment_op = true
+resharper_csharp_space_around_assignment_op = true
+#-
+space_around_logical_op = true
+resharper_space_around_logical_op = true
+csharp_space_around_logical_op = true
+resharper_csharp_space_around_logical_op = true
+#-
+space_around_equality_op = true
+resharper_space_around_equality_op = true
+csharp_space_around_equality_op = true
+resharper_csharp_space_around_equality_op = true
+#-
+space_around_relational_op = true
+resharper_space_around_relational_op = true
+csharp_space_around_relational_op = true
+resharper_csharp_space_around_relational_op = true
+#-
+space_around_bitwise_op = true
+resharper_space_around_bitwise_op = true
+csharp_space_around_bitwise_op = true
+resharper_csharp_space_around_bitwise_op = true
+#-
+space_around_additive_op = true
+resharper_space_around_additive_op = true
+csharp_space_around_additive_op = true
+resharper_csharp_space_around_additive_op = true
+#-
+space_around_multiplicative_op = true
+resharper_space_around_multiplicative_op = true
+csharp_space_around_multiplicative_op = true
+resharper_csharp_space_around_multiplicative_op = true
+#-
+space_around_shift_op = true
+resharper_space_around_shift_op = true
+csharp_space_around_shift_op = true
+resharper_csharp_space_around_shift_op = true
+#-
+space_around_nullcoalescing_op = true
+resharper_space_around_nullcoalescing_op = true
+csharp_space_around_nullcoalescing_op = true
+resharper_csharp_space_around_nullcoalescing_op = true
+#-
+space_around_arrow_op = false
+resharper_space_around_arrow_op = false
+csharp_space_around_arrow_op = false
+resharper_csharp_space_around_arrow_op = false
+#-
+## After unary operators
+#- this is global and can be used to be default for all other settings below in this section
+space_after_unary_operator = false
+resharper_space_after_unary_operator = false
+csharp_space_after_unary_operator = false
+resharper_csharp_space_after_unary_operator = false
+#-
+space_after_logical_not_op = false
+resharper_space_after_logical_not_op = false
+csharp_space_after_logical_not_op = false
+resharper_csharp_space_after_logical_not_op = false
+#-
+space_after_unary_minus_op = false
+resharper_space_after_unary_minus_op = false
+csharp_space_after_unary_minus_op = false
+resharper_csharp_space_after_unary_minus_op = false
+#-
+space_after_unary_plus_op = false
+resharper_space_after_unary_plus_op = false
+csharp_space_after_unary_plus_op = false
+resharper_csharp_space_after_unary_plus_op = false
+#-
+space_after_ampersand_op = false
+resharper_space_after_ampersand_op = false
+csharp_space_after_ampersand_op = false
+resharper_csharp_space_after_ampersand_op = false
+#-
+space_after_asterik_op = false
+resharper_space_after_asterik_op = false
+csharp_space_after_asterik_op = false
+resharper_csharp_space_after_asterik_op = false
+#-
+space_near_postfix_and_prefix_op = false
+resharper_space_near_postfix_and_prefix_op = false
+csharp_space_near_postfix_and_prefix_op = false
+resharper_csharp_space_near_postfix_and_prefix_op = false
+#-
+## In ternary operator
+#- this is global and can be used to be default for all other settings below in this section
+space_around_ternary_operator = true
+resharper_space_around_ternary_operator = true
+csharp_space_around_ternary_operator = true
+resharper_csharp_space_around_ternary_operator = true
+#-
+space_before_ternary_quest = true
+resharper_space_before_ternary_quest = true
+csharp_space_before_ternary_quest = true
+resharper_csharp_space_before_ternary_quest = true
+#-
+space_after_ternary_quest = true
+resharper_space_after_ternary_quest = true
+csharp_space_after_ternary_quest = true
+resharper_csharp_space_after_ternary_quest = true
+#-
+space_before_ternary_colon = true
+resharper_space_before_ternary_colon = true
+csharp_space_before_ternary_colon = true
+resharper_csharp_space_before_ternary_colon = true
+#-
+space_after_ternary_colon = true
+resharper_space_after_ternary_colon = true
+csharp_space_after_ternary_colon = true
+resharper_csharp_space_after_ternary_colon = true
+#-
+## Around comma and semicolon
+space_before_comma = false
+csharp_space_before_comma = false
+resharper_space_before_comma = false
+#-
+space_after_comma = true
+csharp_space_after_comma = true
+resharper_space_after_comma = true
+#-
+space_before_semicolon_in_for_statement = false
+csharp_space_before_semicolon_in_for_statement = false
+resharper_space_before_semicolon_in_for_statement = false
+#-
+space_after_semicolon_in_for_statement = true
+csharp_space_after_semicolon_in_for_statement = true
+resharper_space_after_semicolon_in_for_statement = true
+#-
+space_before_semicolon = false
+resharper_space_before_semicolon = false
+csharp_space_before_semicolon = false
+resharper_csharp_space_before_semicolon = false
+#-
+## Around colon
+space_before_colon_in_inheritance_clause = true
+csharp_space_before_colon_in_inheritance_clause = true
+resharper_space_before_colon_in_inheritance_clause = true
+#-
+space_after_colon_in_inheritance_clause = true
+csharp_space_after_colon_in_inheritance_clause = true
+resharper_space_after_colon_in_inheritance_clause = true
+#-
+space_before_type_parameter_constraint_colon = true
+resharper_space_before_type_parameter_constraint_colon = true
+csharp_space_before_type_parameter_constraint_colon = true
+resharper_csharp_space_before_type_parameter_constraint_colon = true
+#-
+space_after_type_parameter_constraint_colon = true
+resharper_space_after_type_parameter_constraint_colon = true
+csharp_space_after_type_parameter_constraint_colon = true
+resharper_csharp_space_after_type_parameter_constraint_colon = true
+#-
+space_before_colon_in_case = false
+resharper_space_before_colon_in_case = false
+csharp_space_before_colon_in_case = false
+resharper_csharp_space_before_colon_in_case = false
+#-
+space_after_colon_in_case = true
+resharper_space_after_colon_in_case = true
+csharp_space_after_colon_in_case = true
+resharper_csharp_space_after_colon_in_case = true
+#-
+space_before_colon = false
+resharper_space_before_colon = false
+csharp_space_before_colon = false
+resharper_csharp_space_before_colon = false
+#-
+space_before_attribute_colon = false
+resharper_space_before_attribute_colon = false
+csharp_space_before_attribute_colon = false
+resharper_csharp_space_before_attribute_colon = false
+#-
+space_after_colon = true
+resharper_space_after_colon = true
+csharp_space_after_colon = true
+resharper_csharp_space_after_colon = true
+#-
+space_after_attribute_colon = true
+resharper_space_after_attribute_colon = true
+csharp_space_after_attribute_colon = true
+resharper_csharp_space_after_attribute_colon = true
+#-
+## Attributes
+space_between_attribute_sections = true
+resharper_space_between_attribute_sections = true
+csharp_space_between_attribute_sections = true
+resharper_csharp_space_between_attribute_sections = true
+#-
+space_between_square_brackets = false
+resharper_space_between_square_brackets = false
+csharp_space_between_square_brackets = false
+resharper_csharp_space_between_square_brackets = false
+#-
+space_within_attribute_brackets = false
+resharper_space_within_attribute_brackets = false
+csharp_space_within_attribute_brackets = false
+resharper_csharp_space_within_attribute_brackets = false
+#-
+space_after_attributes = true
+resharper_space_after_attributes = true
+csharp_space_after_attributes = true
+resharper_csharp_space_after_attributes = true
+#-
+## Other
+space_after_cast = false
+csharp_space_after_cast = false
+resharper_space_after_cast = false
+#-
+space_around_dot = false
+resharper_space_around_dot = false
+csharp_space_around_dot = false
+resharper_csharp_space_around_dot = false
+#-
+space_around_member_access_operator = false
+resharper_space_around_member_access_operator = false
+csharp_space_around_member_access_operator = false
+resharper_csharp_space_around_member_access_operator = false
+#-
+space_around_lambda_arrow = true
+resharper_space_around_lambda_arrow = true
+csharp_space_around_lambda_arrow = true
+resharper_csharp_space_around_lambda_arrow = true
+#-
+space_before_pointer_asterik_declaration = false
+resharper_space_before_pointer_asterik_declaration = false
+csharp_space_before_pointer_asterik_declaration = false
+resharper_csharp_space_before_pointer_asterik_declaration = false
+#-
+space_before_nullable_mark = false
+resharper_space_before_nullable_mark = false
+csharp_space_before_nullable_mark = false
+resharper_csharp_space_before_nullable_mark = false
+#-
+space_around_alias_eq = true
+resharper_space_around_alias_eq = true
+csharp_space_around_alias_eq = true
+resharper_csharp_space_around_alias_eq = true
+#-
+space_before_trailing_comment = true
+resharper_space_before_trailing_comment = true
+csharp_space_before_trailing_comment = true
+resharper_csharp_space_before_trailing_comment = true
+#-
+space_after_operator_keyword = true
+resharper_space_after_operator_keyword = true
+csharp_space_after_operator_keyword = true
+resharper_csharp_space_after_operator_keyword = true
+#-
+space_within_slice_pattern = true
+resharper_space_within_slice_pattern = true
+csharp_space_within_slice_pattern = true
+resharper_csharp_space_within_slice_pattern = true
